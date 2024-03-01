@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+<!--<ul> тег для создания неупорядоченных списков. Каждый элемент списка помечается тегом <li>.-->
+<!--https://devdocs.io/html/element/ul-->
+
+<h2>Contact details </h2>
+
+<p>Email: frolmt@gmail.com</p>
+<p> Phone number : 322 223</p>
+<hr size="2" noshade="">
+<hr>
+<!--enctype="text/plain" - Этот атрибут указывает на тип кодирования содержимого формы перед отправкой на сервер.
+Он указывает браузеру в каком формате следует отправить данные на сервер. В данном случае, значение "text/plain"
+показывает, что данные должны быть отправлены как обычный текст, без какого-либо кодирования.-->
+<form class="" action="mailto:mefrolmt@gmail.com"  method="post" enctype="text/plain">
+    <label>Your name </label>
+    <input type="text" name="Name">
+    <br>
+    <label>Your email</label>
+    <input type="email" name="mail">
+    <br>
+    <label>Your message</label><br>
+
+    <!--Создание большого окна для текстового сообщения-->
+    <textarea name="name" rows="3" cols="18"></textarea>
+    <br>
+    <input type="submit">
+
+</form>
+
+
+</body>
+</html>
